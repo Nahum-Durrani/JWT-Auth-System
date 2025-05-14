@@ -32,3 +32,10 @@ A secure authentication API built with Spring Boot, Spring Security, and Postgre
 
 ```bash
 git clone https://github.com/your-username/spring-boot-auth-api.git
+## 📬 API Overview
+| Method | Endpoint    | Description                     |
+| ------ | ----------- | ------------------------------- |
+| POST   | `/register` | Register user & send OTP        |
+| POST   | `/verify`   | Verify OTP from email           |
+| POST   | `/login`    | Log in and receive JWT          |
+| GET    | `/profile`  | Get current user (JWT required) |
