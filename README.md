@@ -17,7 +17,7 @@ A secure authentication API built with Spring Boot, Spring Security, and Postgre
 
 ## ⚙️ Tech Stack
 
-- Java 17
+- Java
 - Spring Boot
 - Spring Security
 - JWT (JSON Web Tokens)
@@ -26,16 +26,3 @@ A secure authentication API built with Spring Boot, Spring Security, and Postgre
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/spring-boot-auth-api.git
-## 📬 API Overview
-| Method | Endpoint    | Description                     |
-| ------ | ----------- | ------------------------------- |
-| POST   | `/register` | Register user & send OTP        |
-| POST   | `/verify`   | Verify OTP from email           |
-| POST   | `/login`    | Log in and receive JWT          |
-| GET    | `/profile`  | Get current user (JWT required) |
